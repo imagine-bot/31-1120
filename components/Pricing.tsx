@@ -35,7 +35,7 @@ const Pricing: React.FC<PricingProps> = ({ monthly, annual }) => {
         {plans.map((plan, index) => (
           <div
             key={index}
-            className="border rounded p-4 flex flex-col items-center hover:shadow-lg transition-shadow"
+            className="border rounded p-4 flex flex-col items-center hover:shadow-lg transition-shadow hover:bg-blue-100"
           >
             <h2 className="text-2xl mb-2">{plan.name}</h2>
             <p className="text-xl mb-4">${plan.price}</p>
